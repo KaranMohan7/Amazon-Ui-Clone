@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.overflow{
+ overflow: hidden;
+}
+body{
+    background-color: #E3E6E6;
+}
+.nav{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   color: white;
+    height: 3.7rem;
+    width:  100%;
+    background-color: #131921;
+}
+.logo1{
+    height: 4.1rem;
+    width: 7.5rem;
+    margin-top: 6px;
+}
+.span-1{
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.location-icon{
+   position: absolute;
+ margin-top: 12px;
+ margin-left: 5px;
+}
+
+.pointer{
+    display: flex;
+    flex-direction: column;
+}
+.pointer:hover{
+    border: 1px solid white;
+}
+.span-2{
+    color: #cccccc;
+    margin-left: 20px;
+    font-size: 12px;
+}
+.input-div{
+    display: flex;
+    align-items: center;
+    height: 3.75rem;
+    width: 51.37rem;
+   
+}
+.search-bar{
+    border: none;
+    width: 49.6rem;
+    height: 2rem;
+    padding: 4px;
+}
+.optionvalue{
+    border: none;
+    height: 2.5rem;
+    width: 57px;
+    font-size: 12px;
+    padding: 7px;
+    background-color: #e4e4e4;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+::placeholder{
+    background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+    padding-left: 4px;
+}
+.magnifiy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 4rem;
+    color: black;
+    background-color: rgba(255, 255, 0, 0.833);
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.en-box{
+  background-color:  transparent;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  border: none;
+}
+.hello{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.fa-cart-shopping{
+    font-size: 27px;
+}
+.textcart{
+    font-size: 14px;
+}
+.cartdiv:hover{
+   border: 1px solid white;
+}
+.below-navbar{
+    height: 2.5rem;
+    width: 100%;
+    background-color: #232F3E;
+}
+.below-navbar-ul{
+    display: flex;
+    position: relative;
+    align-items: center;
+
+    left: 8px;
+    font-size: 14px;
+    gap: 20px;
+    color: white;
+}
+.fa-bars{
+    position: relative;
+    font-size: 18px;
+    left: 14px;
+}
+.shoppingimage{
+    margin-left: 40px;   
+}
+.ani:hover{
+    cursor: pointer;
+    border: 2px solid white;
+}
+.hero-section{
+    background-image: url(pictures/HERO.jpg);
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 28.5rem;
+    background-size: cover;
+
+}
+.boxofpics{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: relative;
+    top: 260px;
+    left: 12px;
+    height: 700px;
+    width: 1485px;
+}
+.divone{
+    height: 29rem;
+    width: 22rem;
+    background-color: #FFFFFF;
+    font-size: 12px;
+}
+h2{
+    padding-top: 20px;
+     padding-left: 15px;
+     font-size: 22px;
+}
+.mainimage{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.imgone{
+  height: 7.7rem;
+  width: 9.6rem;
+  object-fit: none;
+  padding: 21px 2px 10px 2px;
+}
+.more{
+    color: #007185;
+}
+.anchor{
+    position: relative;
+    left: 0.75rem;
+    top: 2rem;
+    font-size: 13px;
+}
+.smalldiv{
+    height: 9.3rem;
+    width: 20.75rem;
+}
+button{
+    width: 260px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    height: 29px;
+    color: black;
+    background-color: #FFD814;
+}
+button:hover{
+    background-color: #ddbb11;
+}
+.divbelow{
+    margin-top: 3.6rem;
+    height: 18rem;
+}
+.imgtwo{
+ margin-left: 25%;
+ margin-top: 10px;
+}
+.insidemedbox{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+.colourspan{
+    background-color: #CC0C39;
+    color: white;
+    border-radius: 3px;
+    font-weight: 500;
+    padding: 4px 6px;
+    font-size: 13px;
+}
+.limited{
+    color: #CC0C39;
+    font-weight: bold;
+    font-size: 13px;
+}
+.bike-div{
+    height: 18rem;
+    width: 90.5rem;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+
+}
+.bike-text{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   margin-top: 18px;
+   margin-left: 16px;
+}
+
+.span-bike{
+    font-size: 22px;
+    font-weight: bold;
+}
+.bike-pics{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 16px;
+}
+.footerone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    height: 3rem;
+    width: 100%;
+    background-color:  #485769;
+    color: white;
+    margin-top: 600px;
+}
+.ending{
+    display: flex;
+    padding-top: 47px;
+    justify-content: space-evenly;
+    height: 20rem;
+    width: 95rem;
+    background-color: #232F3E;
+    color: white;
+}
+li{
+    padding-top: 10px;
+    font-size: 14px;
+    list-style-type: none;
+    color: #B9DDDD;
+}
+.start{
+    display: none;
+}
+.footeranchor{
+    position: relative;
+    font-weight: bolder;
+}
+.endfinal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    background-color: #232F3E;
+    margin-top: 0.6px;
+    width: 95rem;
+    height: 10rem;
+}
+.logofooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #cccccc;
+    padding: 6px 18px 6px 8px;
+    height: 20px;
+    width: 90px;
+    color: #cccccc;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.fa-caret-down{
+    margin-left: 11px;
+}
